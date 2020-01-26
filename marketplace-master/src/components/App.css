@@ -1,0 +1,38 @@
+/* Styles go here */
+@fontface {
+  font-family: 'Roboto', sans-serif;
+  src: url('https://fonts.google.com/specimen/Roboto?selection.family=Roboto')
+}
+/* Styles go here */
+@fontface {
+  font-family: 'Anton', sans-serif;
+  src: url('https://fonts.googleapis.com/css?family=Anton&display=swap')
+}
+.body{
+  background-color: #141414;
+}
+content {
+  background-color: #141414;
+}
+#content{
+  align-content: center;
+  position: relative;
+top:100px;
+left: 450px;
+}
+#content #container001 {
+  align-content: center;
+  width: 1000px;
+	height: 375px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+	margin: 40px;
+	text-align: center;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+#content #container001 #Title {
+  font-family: 'Anton', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  }
